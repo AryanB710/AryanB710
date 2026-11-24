@@ -6,7 +6,7 @@
 
 <h2>Aryan Bose <sub><sup>AryanB710</sup></sub></h2>
 
-<img src="./assets/profile.svg" alt="Aryan Bose terminal profile card" width="100%" />
+<img src="./profile.svg." alt="Aryan Bose terminal profile card" width="100%" />
 
 <br /><br />
 
