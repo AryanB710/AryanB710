@@ -1,50 +1,104 @@
-# Hi, I'm Aryan Bose
+<p align="center">
+  <img src="./assets/header.svg" width="100%" alt="Aryan Bose: building LLM systems you can measure" />
+</p>
 
-Final-year Computer Science student at MITE, Mangalore. I build LLM systems I can measure: RAG that cites its sources or abstains, eval gates that block bad changes in CI, and research on catching hallucinated code before it ships.
+<p align="center">
+  <a href="https://aryan-bose-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-050505?style=for-the-badge&logo=vercel&logoColor=159E91" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/aryan-bose-b73960227/"><img src="https://img.shields.io/badge/LinkedIn-050505?style=for-the-badge&logo=linkedin&logoColor=159E91" alt="LinkedIn" /></a>
+  <a href="mailto:aryanbose.710@gmail.com"><img src="https://img.shields.io/badge/Email-050505?style=for-the-badge&logo=gmail&logoColor=159E91" alt="Email" /></a>
+</p>
 
-**Open to:** GenAI / AI Engineering / Software Development internships · Bangalore or remote · available from mid-December 2026
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-[Portfolio](https://aryan-bose-portfolio.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/aryan-bose-b73960227/) · [Email](mailto:aryanbose.710@gmail.com)
+## `> whoami`
 
----
+```yaml
+name:        Aryan Bose
+role:        Final-year CSE student @ MITE, Mangalore
+builds:      LLM systems you can measure: RAG that cites or abstains,
+             eval gates in CI, research on hallucinated code
+looking_for: GenAI / AI Engineering / Software Development internship
+location:    Bangalore | Remote
+available:   mid-December 2026
+```
 
-## Featured projects
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-**[Ask My Docs](https://github.com/AryanB710/ask-my-docs)**: production-style RAG with an eval gate
-Answers questions over a document set, and every sentence has to cite its source or the system abstains. Hybrid retrieval (BM25 + vectors) with reranking, tracing on every request, and a CI eval gate that blocks merges that make answers worse.
-`Python` `Docker` `GitHub Actions`
+## `> ls ./projects`
 
-**[SAFE-Loop](https://github.com/AryanB710/safe-loop)** (research): feedback loop for LLM-generated code
-Runs static analysis and hallucination detection on code an LLM writes, then feeds the findings back to the model. I built the benchmark dataset (7 error categories) and ran experiments with Qwen2.5-Coder 7B and 14B through Ollama at 0, 3 and 6 feedback rounds. <!-- ADD ONE HEADLINE RESULT, e.g. "pass rate went from X% to Y% after 3 rounds" -->
-`Python` `Ollama` `Docker`
+<table>
+<tr>
+<td width="50%" valign="top">
+<code>module_01 · rag</code>
+<h3><a href="https://github.com/AryanB710/ask-my-docs">Ask My Docs</a></h3>
+<p>Production-style RAG with an eval gate. Every sentence must cite its source or the system abstains. Hybrid retrieval (BM25 + vectors), reranking, per-request tracing, and CI that blocks merges which make answers worse.</p>
+<img src="https://img.shields.io/badge/Python-050505?style=flat-square&logo=python&logoColor=159E91" alt="Python" />
+<img src="https://img.shields.io/badge/Docker-050505?style=flat-square&logo=docker&logoColor=159E91" alt="Docker" />
+<img src="https://img.shields.io/badge/GitHub_Actions-050505?style=flat-square&logo=githubactions&logoColor=159E91" alt="GitHub Actions" />
+</td>
+<td width="50%" valign="top">
+<code>module_02 · research</code>
+<h3><a href="https://github.com/AryanB710/safe-loop">SAFE-Loop</a></h3>
+<p>Feedback loop for LLM-generated code: runs static analysis and hallucination detection, then feeds the findings back to the model. I built the benchmark dataset (7 error categories) and ran Qwen2.5-Coder 7B and 14B through Ollama at 0, 3 and 6 feedback rounds.</p>
+<img src="https://img.shields.io/badge/Python-050505?style=flat-square&logo=python&logoColor=159E91" alt="Python" />
+<img src="https://img.shields.io/badge/Ollama-050505?style=flat-square&logo=ollama&logoColor=159E91" alt="Ollama" />
+<img src="https://img.shields.io/badge/Docker-050505?style=flat-square&logo=docker&logoColor=159E91" alt="Docker" />
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<code>module_03 · llm-evals · status: training…</code>
+<h3><a href="https://github.com/AryanB710/evaltrack">EvalTrack</a></h3>
+<p>Prompt evaluation and regression testing for LLM apps. Runs a suite of test prompts, scores the outputs, and flags regressions between prompt or model versions.</p>
+<img src="https://img.shields.io/badge/Python-050505?style=flat-square&logo=python&logoColor=159E91" alt="Python" />
+</td>
+<td width="50%" valign="top">
+<code>module_04 · nlp</code>
+<h3><a href="https://github.com/AryanB710/location-recommender">Location Recommender</a></h3>
+<p>Recommends real shooting locations for content creators from a text brief. BERT matches the brief to places, Google Places supplies candidates, and OpenWeather checks conditions.</p>
+<img src="https://img.shields.io/badge/Python-050505?style=flat-square&logo=python&logoColor=159E91" alt="Python" />
+<img src="https://img.shields.io/badge/Flask-050505?style=flat-square&logo=flask&logoColor=159E91" alt="Flask" />
+<img src="https://img.shields.io/badge/MongoDB-050505?style=flat-square&logo=mongodb&logoColor=159E91" alt="MongoDB" />
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<code>module_05 · data · status: training…</code>
+<h3><a href="https://github.com/AryanB710/payment-reconciliation-tracker">Payment Reconciliation Tracker</a></h3>
+<p>Matches payment records across sources and surfaces mismatches as exceptions for review.</p>
+<img src="https://img.shields.io/badge/Python-050505?style=flat-square&logo=python&logoColor=159E91" alt="Python" />
+</td>
+<td width="50%" valign="top">
+<code>module_06 · frontend</code>
+<h3><a href="https://github.com/AryanB710/portfolio">3D Portfolio</a></h3>
+<p>Interactive 3D portfolio with a teal-on-black theme. <a href="https://aryan-bose-portfolio.vercel.app/">See it live →</a></p>
+<img src="https://img.shields.io/badge/React-050505?style=flat-square&logo=react&logoColor=159E91" alt="React" />
+<img src="https://img.shields.io/badge/TypeScript-050505?style=flat-square&logo=typescript&logoColor=159E91" alt="TypeScript" />
+<img src="https://img.shields.io/badge/Three.js-050505?style=flat-square&logo=threedotjs&logoColor=159E91" alt="Three.js" />
+</td>
+</tr>
+</table>
 
-**[EvalTrack](https://github.com/AryanB710/evaltrack)** (in progress): LLM prompt evaluation and regression testing
-Runs a suite of test prompts against an LLM app, scores the outputs, and flags regressions between prompt or model versions.
-`Python` <!-- ADD STACK -->
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-**[Location Recommendation System](https://github.com/AryanB710/location-recommender)**: shooting locations for content creators
-Takes a text brief for a shoot and recommends real locations: BERT matches the brief to place descriptions, Google Places supplies candidates, and OpenWeather checks conditions.
-`Python` `BERT` `Flask` `MongoDB`
+## `> cat research.log`
 
-**[Payment Reconciliation & Exception Tracker](https://github.com/AryanB710/payment-reconciliation-tracker)** (in progress)
-Matches payment records across sources and surfaces mismatches for review. <!-- EDIT TO MATCH WHAT IT ACTUALLY DOES + STACK -->
+```diff
++ [2027] Paper accepted at AICCoNS 2027
++ [cert] Machine Learning Specialization · DeepLearning.AI
++ [cert] Generative AI for Software Development · DeepLearning.AI
++ [cert] Introduction to Machine Learning · Google Developers
++ [cert] NPTEL Introduction to Virtual Reality · Silver (80%)
+```
 
-**[Portfolio](https://github.com/AryanB710/portfolio)**: [live site](https://aryan-bose-portfolio.vercel.app/)
-3D portfolio built with React, TypeScript, Three.js and GSAP, deployed on Vercel.
+<img src="./assets/divider.svg" width="100%" alt="" />
 
----
+## `> stack --list`
 
-## Research & certifications
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,java,js,ts,react,threejs,html,css,flask,mongodb,mysql,docker,git,githubactions,figma&theme=dark" alt="Python, Java, JavaScript, TypeScript, React, Three.js, HTML, CSS, Flask, MongoDB, MySQL, Docker, Git, GitHub Actions, Figma" />
+</p>
 
-- Paper accepted at **AICCoNS 2027**: *<!-- PAPER TITLE -->*
-- Machine Learning Specialization and Generative AI for Software Development (DeepLearning.AI)
-- Introduction to Machine Learning (Google Developers)
-- NPTEL Introduction to Virtual Reality: Silver (80%)
+<p align="center"><code>LLMs (Ollama · Qwen2.5-Coder) · RAG · BM25 + vector retrieval · reranking · BERT · LLM evaluation · Tableau</code></p>
 
-## Tech I work with
-
-**Languages:** Python, Java, JavaScript / TypeScript, SQL
-**AI / ML:** LLMs (Ollama, Qwen2.5-Coder), RAG, BM25 + vector retrieval, reranking, BERT, LLM evaluation
-**Backend & data:** Flask, MongoDB, MySQL
-**Frontend:** React, Three.js, HTML, CSS
-**Tools:** Docker, Git, GitHub Actions, Tableau, Figma
+<img src="./assets/footer.svg" width="100%" alt="" />
