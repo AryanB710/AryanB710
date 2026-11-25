@@ -15,8 +15,8 @@
 ```yaml
 name:        Aryan Bose
 role:        Final-year CSE student @ MITE, Mangalore
-builds:      LLM systems you can measure: RAG that cites or abstains,
-             eval gates in CI, research on hallucinated code
+builds:      LLM systems you can measure (RAG that cites or abstains,
+             prompt regression testing) and full-stack Flask / React apps
 looking_for: GenAI / AI Engineering / Software Development internship
 location:    Bangalore | Remote
 available:   mid-December 2026
@@ -37,40 +37,33 @@ available:   mid-December 2026
 <img src="https://img.shields.io/badge/GitHub_Actions-050505?style=flat-square&logo=githubactions&logoColor=159E91" alt="GitHub Actions" />
 </td>
 <td width="50%" valign="top">
-<code>module_02 · research</code>
-<h3><a href="https://github.com/AryanB710/safe-loop">SAFE-Loop</a></h3>
-<p>Feedback loop for LLM-generated code: runs static analysis and hallucination detection, then feeds the findings back to the model. I built the benchmark dataset (7 error categories) and ran Qwen2.5-Coder 7B and 14B through Ollama at 0, 3 and 6 feedback rounds.</p>
-<img src="https://img.shields.io/badge/Python-050505?style=flat-square&logo=python&logoColor=159E91" alt="Python" />
-<img src="https://img.shields.io/badge/Ollama-050505?style=flat-square&logo=ollama&logoColor=159E91" alt="Ollama" />
-<img src="https://img.shields.io/badge/Docker-050505?style=flat-square&logo=docker&logoColor=159E91" alt="Docker" />
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<code>module_03 · llm-evals · status: training…</code>
-<h3><a href="https://github.com/AryanB710/evaltrack">EvalTrack</a></h3>
+<code>module_02 · llm-evals</code>
+<h3><a href="https://github.com/AryanB710/EvalTrack-LLM-Prompt-Regression-Testing-Platform">EvalTrack</a></h3>
 <p>Prompt evaluation and regression testing for LLM apps. Runs a suite of test prompts, scores the outputs, and flags regressions between prompt or model versions.</p>
 <img src="https://img.shields.io/badge/Python-050505?style=flat-square&logo=python&logoColor=159E91" alt="Python" />
 </td>
-<td width="50%" valign="top">
-<code>module_04 · nlp</code>
-<h3><a href="https://github.com/AryanB710/location-recommender">Location Recommender</a></h3>
-<p>Recommends real shooting locations for content creators from a text brief. BERT matches the brief to places, Google Places supplies candidates, and OpenWeather checks conditions.</p>
-<img src="https://img.shields.io/badge/Python-050505?style=flat-square&logo=python&logoColor=159E91" alt="Python" />
-<img src="https://img.shields.io/badge/Flask-050505?style=flat-square&logo=flask&logoColor=159E91" alt="Flask" />
-<img src="https://img.shields.io/badge/MongoDB-050505?style=flat-square&logo=mongodb&logoColor=159E91" alt="MongoDB" />
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<code>module_05 · data · status: training…</code>
-<h3><a href="https://github.com/AryanB710/payment-reconciliation-tracker">Payment Reconciliation Tracker</a></h3>
-<p>Matches payment records across sources and surfaces mismatches as exceptions for review.</p>
+<code>module_03 · nlp</code>
+<h3><a href="https://github.com/AryanB710/location-recommendation-system">Location Recommendation System</a></h3>
+<p>Paste in a video script and get real shooting locations for every scene. BERT ranks Google Places results by how well they match each scene, and Open-Meteo adds the weather forecast.</p>
 <img src="https://img.shields.io/badge/Python-050505?style=flat-square&logo=python&logoColor=159E91" alt="Python" />
+<img src="https://img.shields.io/badge/BERT-050505?style=flat-square&logo=huggingface&logoColor=159E91" alt="BERT" />
+<img src="https://img.shields.io/badge/Flask-050505?style=flat-square&logo=flask&logoColor=159E91" alt="Flask" />
 </td>
 <td width="50%" valign="top">
-<code>module_06 · frontend</code>
-<h3><a href="https://github.com/AryanB710/portfolio">3D Portfolio</a></h3>
+<code>module_04 · fintech</code>
+<h3><a href="https://github.com/AryanB710/payment-reconciliation-tracker">Payment Reconciliation Tracker</a></h3>
+<p>Flask app that reconciles orders, payments and settlements, and tracks every exception with an audit trail.</p>
+<img src="https://img.shields.io/badge/Python-050505?style=flat-square&logo=python&logoColor=159E91" alt="Python" />
+<img src="https://img.shields.io/badge/Flask-050505?style=flat-square&logo=flask&logoColor=159E91" alt="Flask" />
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+<code>module_05 · frontend</code>
+<h3><a href="https://github.com/AryanB710/portfolio-site">3D Portfolio</a></h3>
 <p>Interactive 3D portfolio with a teal-on-black theme. <a href="https://aryan-bose-portfolio.vercel.app/">See it live →</a></p>
 <img src="https://img.shields.io/badge/React-050505?style=flat-square&logo=react&logoColor=159E91" alt="React" />
 <img src="https://img.shields.io/badge/TypeScript-050505?style=flat-square&logo=typescript&logoColor=159E91" alt="TypeScript" />
@@ -99,6 +92,6 @@ available:   mid-December 2026
   <img src="https://skillicons.dev/icons?i=py,java,js,ts,react,threejs,html,css,flask,mongodb,mysql,docker,git,githubactions,figma&theme=dark" alt="Python, Java, JavaScript, TypeScript, React, Three.js, HTML, CSS, Flask, MongoDB, MySQL, Docker, Git, GitHub Actions, Figma" />
 </p>
 
-<p align="center"><code>LLMs (Ollama · Qwen2.5-Coder) · RAG · BM25 + vector retrieval · reranking · BERT · LLM evaluation · Tableau</code></p>
+<p align="center"><code>LLMs · RAG · BM25 + vector retrieval · reranking · BERT · LLM evaluation · Tableau</code></p>
 
 <img src="./assets/footer.svg" width="100%" alt="" />
